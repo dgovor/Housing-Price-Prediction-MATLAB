@@ -12,5 +12,10 @@ The dataset provided by Kaggle consists of 2919 samples with 79 features each. T
 
 ## Data preprocessing
 
-Feature Engineering
-On the preprocessing step the data was cleaned from features that contained more than 50% of missing data; all categorical features were transformed into numerical features; after that they were sorted so it would be possible to describe them linearly; some features with low variance were also deleted; some data samples have features with values that vary widely from the average values, this data samples were also deleted; and, lastly, we found all missing values and change them either to 0 or to most frequent values of the features that contain these missing values. As a prediction model it was decided to use linear regression since the given data can be described linearly. On evaluation step, RMSLE was used and gave result of 0.1402.
+Data preprocessing consists of the following steps:
+* The data is cleaned from features that contained more than 50% of missing data;
+* All categorical features are transformed into numerical features;
+* The features are sorted so it would be possible to describe them linearly;
+* Some features with very low variance are deleted;
+* Outliers are deleted;
+* All missing values are found and changed to either 0 or most frequent values of the features that contain these missing values, wherever it makes sence.
