@@ -27,4 +27,4 @@ The training dataset is used to calculate "_w_" and "_b_". This is done by solvi
 
 ## Results
 
-As a prediction method it was decided to use a linear regression method since the given data can be described linearly. This method turned out to be fairly accurate as it showed a high percentage of accuracy. As one of the evaluation methods, RMSLE is used to calculate error. As another form of evaluation, relative prediction error percentage is used. As the final result RMSLE showed an error of 14%. Relative prediction error percentage was 12%. As it can be seen, the final accuracy of the algorithm is approximately 87%
+As a prediction method it was decided to use a linear regression method since the given data can be described linearly. This method turned out to be fairly accurate as it showed a high percentage of accuracy. As one of the evaluation methods, RMSLE is used to calculate error. As another form of evaluation, relative prediction error percentage is used. As the final result RMSLE showed an error of 14%. Relative prediction error percentage was 12%. As it can be seen, the final accuracy of the algorithm is approximately 87%.
