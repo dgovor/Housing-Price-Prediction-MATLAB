@@ -1,5 +1,5 @@
 # Housing-Price-Prediction
-Machine Learning (ML) model for price prediction using Linear Regression
+Machine Learning (ML) model for price prediction using Linear Regression.
 
 ## Description
 
