@@ -1,4 +1,4 @@
-# Housing-Price-Prediction
+# Housing-Price-Prediction-MATLAB
 Machine Learning (ML) model for price prediction using Linear Regression.
 
 ## Description
