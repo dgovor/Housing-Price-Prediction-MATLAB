@@ -26,7 +26,7 @@ data_set = [train; test num2cell(zeros(size(test,1),1))];
 [g_count,g_index] = groupcounts(j);
 index = 0;
 
-% For each fature that contains missig values we calculate percentage of
+% For each feature that contains missig values we calculate percentage of
 % missing values. If it is higher than 50% we delete this feature since the
 % majority of data is missing
 for i = 1:length(g_index)
