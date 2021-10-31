@@ -10,7 +10,7 @@ The proposed ML model was developed in order to represent one of the possible so
 
 The dataset provided by Kaggle consists of 2919 samples with 79 features each. This dataset originally split into training and testing datasets with 1460 and 1459 samples, respectively. In order to justify our models performance, the training dataset is split into two subsets of data. One subset contains 86% of the original training data and is used to train our model, second subset that is called validation subset contains the remaining 14% and is used to validate our model. The accuracy of validation with the 14% of the training data will provide us with an understanding of the efficiency of our design.
 
-## Data preprocessing
+## Data Preprocessing
 
 Data preprocessing consists of the following steps:
 * The data is cleaned from features that contained more than 50% of missing data;
